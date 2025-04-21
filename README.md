@@ -1,5 +1,5 @@
 <h1 align="center">
-	libft(Projects at 42tokyo)
+	libft (Projects at 42tokyo)
 </h1>
 
 <p align="center">
@@ -17,6 +17,8 @@
 
 ## List of functions:
 
+These are custom utility functions implemented for extended functionality:
+
 ### Functions from `<ctype.h>` library
 
 * ft_isascii
@@ -27,15 +29,14 @@
 * ft_isspace
 * ft_tolower
 * ft_toupper
-* pass_space
+* pass_space - Skips whitespace characters in a string.
 
 ### Functions from `<stdlib.h>` library
 
 * ft_atoi
 * ft_calloc
-* ft_abs
-* ft_itoa
-* ft_malloc
+* ft_abs - Returns the absolute value of an integer.
+* ft_malloc - A wrapper for malloc with error handling.
 
 ### Functions from `<strings.h>` library
 
@@ -69,7 +70,7 @@
 * ft_putstr_fd
 * ft_putendl_fd
 * ft_putnbr_fd
-* ft_put_message
+* ft_put_message - Outputs a formatted message to the standard output.
 
 ### Linked list functions (bonus)
 
