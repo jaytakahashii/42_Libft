@@ -34,6 +34,8 @@
 * ft_atoi
 * ft_calloc
 * ft_abs
+* ft_itoa
+* ft_malloc
 
 ### Functions from `<strings.h>` library
 
@@ -67,6 +69,7 @@
 * ft_putstr_fd
 * ft_putendl_fd
 * ft_putnbr_fd
+* ft_put_message
 
 ### Linked list functions (bonus)
 
