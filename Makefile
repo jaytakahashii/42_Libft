@@ -156,8 +156,8 @@ clean:
 	@echo $(R) "$(OBJ_DIR) has been removed.\n" $(X)
 
 fclean:
-	@${RM} ${OBJ_DIR}
-	@${RM} ${NAME}
+	${RM} ${OBJ_DIR}
+	${RM} ${NAME}
 	@echo $(R) "$(NAME) and $(OBJ_DIR) has been removed.\n" $(X)
 
 re: fclean all
